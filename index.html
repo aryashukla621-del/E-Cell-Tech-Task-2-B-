@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Number Guessing Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h2>Guess the Number (1 - 100)</h2>
+
+    <input type="number" id="guessInput" placeholder="Enter your guess">
+
+    <button onclick="checkGuess()">Submit</button>
+
+    <p id="message"></p>
+    <p id="attempts">Attempts: 0</p>
+    <p id="guesses">Your guesses: </p>
+
+    <button onclick="restartGame()">Restart Game</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
