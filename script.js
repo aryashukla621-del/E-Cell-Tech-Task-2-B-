@@ -31,7 +31,7 @@ function checkGuess() {
     messageText.style.color = "orange";
   } 
   else {
-    messageText.innerText = "Correct! 🎉";
+    messageText.innerText = "Correct! ";
     messageText.style.color = "green";
 
     inputField.disabled = true;
